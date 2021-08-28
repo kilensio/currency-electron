@@ -4,11 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --out=build --overwrite"
   },
   "author": "Sasha",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^13.2.2"
+    "electron": "^13.2.2",
+    "electron-packager": "^15.3.0"
   }
 }
