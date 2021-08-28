@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: rgb(236, 227, 218);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color:rgb(39, 39, 39);
+  margin: 0;
+}
+
+.window-container {
+  margin: auto;
+  background-color: #fff;
+  width: 480px;
+  height: 320px;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+header h2 {
+  font-size: 1.3rem;
+}
+
+select {
+  width: 10rem;
+  padding: 0.2rem;
+  border-radius: 3px;
+  font-size: inherit;
+}
+
+option {
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+main .container {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.currency {
+  /* background-color: grey; */
+  /* box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1); */
+  padding: 1rem 2rem 1.5rem;
+  border-radius: 0.5rem;
+  /* margin-bottom: 2rem; */
+}
+
+.currency__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.currency__name {
+  padding-left: 1rem;
+}
+
+.currency__rate {
+  text-align: center;
+  margin: 1.5rem auto 1rem;
+  font-size: 1.5rem;
+  color: rgb(109, 108, 108);
+}
+
+.currency__rate b {
+  font-weight: 700;
+  color: black;
+}
+
+footer h3 {
+  text-align: end;
+  margin: 0;
+  color: rgb(39, 39, 39);
+}

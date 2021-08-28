@@ -1,0 +1,17 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sasha",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

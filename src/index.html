@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src http://country.io/currency.json http://data.fixer.io/api/; img-src https://flagcdn.com/; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src http://country.io/currency.json http://data.fixer.io/api/; img-src https://flagcdn.com/; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com">
+    <title>Currency</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="window-container">
+      <header>
+        <h2 id="Date"></h2>
+        <span class="currency-options">
+          <span>Currency: </span>
+        </span>
+      </header>
+      <main>
+        <div class="container"></div>
+      </main>
+      <footer>
+        <h3 id="Base">Base: <span class="currency__base">EUR</span></h3>
+      </footer>
+    </div>
+
+  <!-- <script src="./preload.js"></script> -->
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+  <script type="module" src="script.js"></script>
+  </body>
+</html>
