@@ -1,6 +1,6 @@
 # Get currency rate app
 
-## Тестовое задание.
+### Тестовое задание
 NodeJS, Electron
 
 ### Используемые api:
@@ -12,4 +12,4 @@ NodeJS, Electron
   npm run start / npm run build
 ```  
 
-![currency-rate](/public/screenClip.png?s=480)
+![currency-rate](/public/screenClip.png?s=300)
