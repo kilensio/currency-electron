@@ -12,4 +12,4 @@ NodeJS, Electron
   npm run start / npm run build
 ```  
 
-![currency-rate](/public/screenClip.png?s=300)
+<img src="/public/screenClip.png" alt="currency-rate" width="480"/>
